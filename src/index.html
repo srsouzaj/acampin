@@ -6,21 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/src/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
     <title>Acamp.in | Login</title>
 </head>
 
 <body>
     <main class="container">
-        <section class="Login">
+        <section class="login">
+            <h1>Faça seu login</h1>
+            <p>Entre com suas informações de cadastro</p>
 
+            <div class="login-form">
+                <label for="email">Login</label>
+                <input id="email" type="email" name="email" autofocus>
+                <label for="senha">Senha</label>
+                <input id="senha" type="password" name="senha">
+                <label for="remember">Lembrar-me</label>
+            </div>
+            <input type="checkbox" name="remember" id="remember">
+            <p>Esqueci minha senha</p>
+            <button> Entrar </button>
+
+            <p>Não tem uma conta.
+                <strong>Registre-se</strong>
+            </p>
         </section>
-        <section class="Image-container">
 
+        <section class="image-container">
         </section>
     </main>
 
