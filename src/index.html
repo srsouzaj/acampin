@@ -15,22 +15,30 @@
 
 <body>
     <main class="container">
+        <img id="logo" src="../public/logo.svg">
         <section class="login">
-            <h1>Faça seu login</h1>
-            <p>Entre com suas informações de cadastro</p>
+            <div class="div-login">
+                <img src="../public/log-in.svg">
+                <h1>Faça seu login</h1>
+                <p>Entre com suas informações de cadastro</p>
+            </div>
 
             <div class="login-form">
                 <label for="email">Login</label>
-                <input id="email" type="email" name="email" autofocus>
+                <input class="input" id="email" placeholder="Digite seu login" type="email" name="email" autofocus>
+                <br />
                 <label for="senha">Senha</label>
-                <input id="senha" type="password" name="senha">
-                <label for="remember">Lembrar-me</label>
+                <input class="input" id="senha" placeholder="Digite sua senha" type="password" name="senha">
             </div>
-            <input type="checkbox" name="remember" id="remember">
-            <p>Esqueci minha senha</p>
+            <div class="remember">
+                <input type="checkbox" name="remember" id="remember">
+                <p>Remember</p>
+                <p class="forgot"> Esqueci minha senha</p>
+            </div>
+
             <button> Entrar </button>
 
-            <p>Não tem uma conta.
+            <p class="register">Não tem uma conta.
                 <strong>Registre-se</strong>
             </p>
         </section>
